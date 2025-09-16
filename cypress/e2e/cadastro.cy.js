@@ -11,10 +11,9 @@ describe('Cadastro usuário', () => {
 
     });
 
-    afterEach(() =>{
-        cy.screenshot()
-    })
-    
+    //afterEach(() =>{
+       // cy.screenshot()
+    //})
     it('Cenário Feliz fazendo cadastro', () => {
         cy.get('#regUsername').type(nomeusuario)
         cy.get('#regBirthdate').type('1995-04-17')
